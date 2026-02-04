@@ -1,7 +1,7 @@
 def main():
-    a = int(input("zadejte prvni cislo: "))
+    a = float(input("zadejte prvni cislo: "))
     znaminko = input("zadejte znaminko: +,-,/,*: ")
-    b = int(input("zadejte druhe cislo: "))
+    b = float(input("zadejte druhe cislo: "))
 
 
     if znaminko == "+":
@@ -14,6 +14,9 @@ def main():
         vysledek = a * b
 
     print(vysledek)
+
+    priklad = input("zadejte priklad: ")
+    print(eval(priklad))
 
 if __name__ == "__main__":
     main()
