@@ -57,3 +57,4 @@ class Hodina9:
 program = Hodina9()
 
 program.seznam2()
+#program.seznam()
